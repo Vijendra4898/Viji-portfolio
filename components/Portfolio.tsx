@@ -109,7 +109,12 @@ export default function Portfolio() {
           <a className="resume-link" href="/Vijendra_Patel_Lead.pdf" download>
             RESUME <ArrowDown size={13} />
           </a>
-          <a className="nav-cta" href="mailto:your-email@example.com?subject=Project%20Inquiry">LET&apos;S TALK <ArrowUpRight size={14} /></a>
+         <a
+  className="nav-cta"
+  href="mailto:patelvijendra55@gmail.com?subject=Project%20Inquiry&body=Hi%20Vijendra%2C%0A%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.%0A%0AThanks"
+>
+  LET&apos;S TALK <ArrowUpRight size={14} />
+</a>
         </div>
 
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">

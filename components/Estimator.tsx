@@ -84,7 +84,7 @@ export default function Estimator() {
           </motion.div>
           <div className="meter"><motion.span animate={{ width: complexity.width }} /></div>
           <p><Sparkles size={15} /> {type} with {selected.length} selected module{selected.length !== 1 ? "s" : ""}.</p>
-          <a href="mailto:patelvijendra55@gmail.com" className="primary-button small">
+          <a href="mailto:patelvijendra55@gmail.com?subject=Project%20Inquiry&body=Hi%20Vijendra%2C%0A%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.%0A%0AThanks" className="primary-button small">
             Discuss this build <ArrowRight size={16} />
           </a>
         </div>
