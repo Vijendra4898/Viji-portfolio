@@ -109,7 +109,7 @@ export default function Portfolio() {
           <a className="resume-link" href="/Vijendra_Patel_Lead.pdf" download>
             RESUME <ArrowDown size={13} />
           </a>
-          <a className="nav-cta" href="mailto:patelvijendra55@gmail.com?subject=Project%20Inquiry">LET&apos;S TALK <ArrowUpRight size={14} /></a>
+          <a className="nav-cta" href="mailto:your-email@example.com?subject=Project%20Inquiry">LET&apos;S TALK <ArrowUpRight size={14} /></a>
         </div>
 
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
@@ -304,16 +304,16 @@ export default function Portfolio() {
           <span className="eyebrow"><ShieldCheck size={14} /> FINAL TRANSMISSION</span>
           <h2>Have an idea worth<br /><em>building?</em></h2>
           <p>Tell me what you&apos;re trying to build. I&apos;ll help turn the rough idea into a clear digital product.</p>
-          <a className="primary-button huge" href="mailto:patelvijendra55@gmail.com?">
+          <a className="primary-button huge" href="mailto:your-email@example.com?subject=Let%27s%20Build%20Something">
             LET&apos;S BUILD SOMETHING <ArrowUpRight size={20} />
           </a>
-          <div className="contact-email">patelvijendra55@gmail.com</div>
+          <div className="contact-email">your-email@example.com</div>
         </div>
       </section>
 
       <footer>
         <div>© {new Date().getFullYear()} VIJENDRA.DEV</div>
-        
+        <div>DESIGNED + BUILT WITH NEXT.JS</div>
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>
